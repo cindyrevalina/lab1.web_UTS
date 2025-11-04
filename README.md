@@ -96,7 +96,8 @@ Halaman konfirmasi pesanan sebelum pembayaran:
 - Tombol `Konfirmasi` / `Bayar`  
 **Tujuan:** Mengumpulkan data final untuk memproses pesanan.
 
-![Checkout](img/checkout-preview.png)
+![Checkout]<img width="1352" height="649" alt="image" src="https://github.com/user-attachments/assets/bdb6a12d-9bda-4f54-a529-cbfd6ca4d26a" />
+
 
 ---
 
