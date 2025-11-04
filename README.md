@@ -54,7 +54,8 @@ Halaman utama setelah login. Menampilkan:
 - Ringkasan singkat (jumlah buku, notifikasi pesanan)  
 **Tujuan:** Memudahkan pengguna menjelajah koleksi buku dan melakukan aksi cepat.
 
-![Dashboard](img/dashboard-preview.png)
+![Dashboard]<img width="1365" height="501" alt="image" src="https://github.com/user-attachments/assets/eb2b5b92-0a45-4971-b9e4-290ea8f13e62" />
+
 
 ---
 
