@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tracking - Toko Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-tracking">
+  <header class="site-header">
+    <img src="img/logo.jpeg" alt="logo" class="logo">
+    <h1>Tracking Pengiriman</h1>
+    <nav class="top-nav"><a href="dashboard.html" class="link-btn">Dashboard</a></nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Cari Nomor Delivery Order</h2>
+      <div class="inline">
+        <input id="input-do" placeholder="Masukkan Nomor DO, contoh: 20230012">
+        <button id="btn-cari" class="btn">Cari</button>
+      </div>
+    </section>
+
+    <section class="card" id="hasil-tracking" style="display:none;">
+      <h3>Hasil Pencarian</h3>
+      <p><strong>Nomor DO:</strong> <span id="ht-do"></span></p>
+      <p><strong>Nama Pemesan:</strong> <span id="ht-nama"></span></p>
+      <p><strong>Status:</strong> <span id="ht-status"></span></p>
+      <p><strong>Ekspedisi:</strong> <span id="ht-ekspedisi"></span></p>
+      <p><strong>Tanggal Kirim:</strong> <span id="ht-tanggal"></span></p>
+      <p><strong>Paket:</strong> <span id="ht-paket"></span></p>
+      <p><strong>Total:</strong> <span id="ht-total"></span></p>
+
+      <h4>Perjalanan</h4>
+      <ul id="ht-list"></ul>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year5"></span></p></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

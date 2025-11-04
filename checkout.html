@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Checkout - Toko Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-checkout">
+  <header class="site-header">
+    <img src="img/logo.jpeg" alt="logo" class="logo">
+    <h1>Checkout</h1>
+    <nav class="top-nav"><a href="dashboard.html" class="link-btn">Kembali</a></nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Keranjang Pemesanan</h2>
+      <table id="cart-table" class="table">
+        <thead><tr><th>Nama</th><th>Harga</th><th>Qty</th><th>Subtotal</th><th>Aksi</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <div class="right"><strong>Total: <span id="cart-total">Rp 0</span></strong></div>
+    </section>
+
+    <section class="card">
+      <h2>Data Pemesan & Pembayaran</h2>
+      <form id="form-checkout" novalidate>
+        <label>Nama Pemesan</label><input id="cust-nama" required>
+        <label>Email</label><input id="cust-email" type="email" required>
+        <label>Alamat</label><input id="cust-alamat" required>
+        <label>Metode Pembayaran</label>
+        <select id="cust-pay" required>
+          <option value="">Pilih</option>
+          <option value="transfer">Transfer Bank</option>
+          <option value="cod">COD</option>
+          <option value="e-wallet">E-Wallet</option>
+        </select>
+        <button type="submit" class="btn">Bayar / Selesaikan Pesanan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year4"></span></p></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

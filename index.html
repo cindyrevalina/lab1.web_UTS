@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login - Toko Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-login">
+  <header class="site-header">
+    <img src="img/logo.jpeg" alt="Logo Toko Buku" class="logo">
+    <h1>Toko Buku Online</h1>
+  </header>
+
+  <main class="container">
+    <section class="card login-card" aria-labelledby="login-title">
+      <h2 id="login-title">Masuk ke akun Anda</h2>
+
+      <form id="login-form" novalidate>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="email@contoh.com" required>
+
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="password" required>
+
+        <button type="submit" class="btn">Login</button>
+      </form>
+
+      <div class="muted">
+        <button id="btn-lupa" class="link-btn">Lupa Password</button>
+        <button id="btn-daftar" class="link-btn">Daftar</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Lupa Password -->
+  <div class="modal" id="modal-lupa" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" data-close="modal-lupa">&times;</button>
+      <h3>Lupa Password</h3>
+      <p>Masukkan email untuk reset (simulasi):</p>
+      <input id="lupa-email" type="email" placeholder="email@contoh.com">
+      <button id="lupa-submit" class="btn">Kirim Link Reset (simulasi)</button>
+    </div>
+  </div>
+
+  <!-- Modal Daftar -->
+  <div class="modal" id="modal-daftar" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" data-close="modal-daftar">&times;</button>
+      <h3>Daftar Akun Baru</h3>
+      <form id="form-daftar" novalidate>
+        <label for="daftar-nama">Nama</label>
+        <input id="daftar-nama" required>
+        <label for="daftar-email">Email</label>
+        <input id="daftar-email" type="email" required>
+        <label for="daftar-pass">Password</label>
+        <input id="daftar-pass" type="password" required>
+        <button type="submit" class="btn">Daftar</button>
+      </form>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Toko Buku Online</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

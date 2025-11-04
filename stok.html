@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Stok / Katalog - Toko Buku</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="page-stok">
+  <header class="site-header">
+    <img src="img/logo.jpeg" alt="Logo" class="logo">
+    <h1>Katalog Buku</h1>
+    <nav class="top-nav">
+      <a href="dashboard.html" class="link-btn">Dashboard</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Daftar Buku</h2>
+      <table id="tabel-katalog" class="table">
+        <thead>
+          <tr>
+            <th>Kode</th><th>Cover</th><th>Nama</th><th>Jenis</th><th>Edisi</th><th>Stok</th><th>Harga</th><th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h3>Tambah Stok / Buku Baru</h3>
+      <form id="form-tambah" class="grid-form" novalidate>
+        <input id="tb-kode" placeholder="Kode Barang" required>
+        <input id="tb-nama" placeholder="Nama Barang" required>
+        <input id="tb-jenis" placeholder="Jenis" required>
+        <input id="tb-edisi" placeholder="Edisi" required>
+        <input id="tb-stok" type="number" placeholder="Stok" required>
+        <input id="tb-harga" placeholder="Harga (Rp...)" required>
+        <input id="tb-cover" placeholder="Path cover (img/ ...)" required>
+        <button type="submit" class="btn">Tambahkan</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year3"></span></p></footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
