@@ -82,7 +82,8 @@ Halaman untuk melihat status pesanan setelah checkout:
 - Riwayat perubahan status (opsional)  
 **Tujuan:** Memberi transparansi terhadap proses pemesanan ke pengguna.
 
-![Tracking](img/tracking-preview.png)
+![Tracking]<img width="1365" height="339" alt="image" src="https://github.com/user-attachments/assets/aed7577d-0cb6-4358-99f7-1238331193ac" />
+
 
 ---
 
