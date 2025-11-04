@@ -68,7 +68,8 @@ Menampilkan informasi stok tiap buku:
 - Fitur pencarian / filter sederhana (opsional)  
 **Tujuan:** Memantau ketersediaan barang sebelum melakukan checkout.
 
-![Stok Buku](img/stok-preview.png)
+![Stok Buku]<img width="1352" height="647" alt="image" src="https://github.com/user-attachments/assets/c2388a49-9785-4c01-9cdf-23bab8397f47" />
+
 
 ---
 
