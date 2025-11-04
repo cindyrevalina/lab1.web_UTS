@@ -40,7 +40,7 @@ Halaman untuk autentikasi pengguna. Komponen utama:
 - Pesan validasi sederhana (cek input kosong / kredensial salah)  
 **Tujuan:** Mengamankan akses ke dashboard dan fitur pemesanan.
 
-![Login Page](img/login-p.png)
+![Login Page].https://github.com/cindyrevalina/lab1.web_UTS/blob/master/index.png?raw=true
 
 ---
 
